@@ -559,7 +559,7 @@ firework:
 
 # show the copyright below each article
 article_copyright:
-  enable: false
+  enable: true
   content:
     author: true
     link: true
@@ -567,7 +567,7 @@ article_copyright:
     date: false
     updated: false
     license: true
-    license_type: by-nc-sa # https://creativecommons.org/licenses
+    license_type: by_me # https://creativecommons.org/licenses
 
 # Back To Top
 top:
@@ -631,7 +631,7 @@ share:
 
 # show categories card on home page
 home_categories:
-  enable: false
+  enable: true
   content:
     - categories: # string (single-layer category) or array (multi-layer category)
       cover: # empty means random cover
@@ -654,7 +654,7 @@ injector:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: false
+  enable: true
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink
@@ -690,12 +690,12 @@ pace:
 # Experimental
 # Please turn on pjax to use this feature
 player:
-  disable_on_mobile: false
+  disable_on_mobile: ture
   position: before_sidebar # before_sidebar | after_sidebar | after_widget
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
       audio: []
       fixed: true
@@ -710,7 +710,7 @@ player:
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
-    enable: false
+    enable: true
     meting_api: # custom api
     options:
       id: 2265921590
