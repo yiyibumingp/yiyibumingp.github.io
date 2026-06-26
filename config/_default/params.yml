@@ -8,8 +8,8 @@ menu:
   - name: home
     url: ""
     icon: # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
-  - name: archives
-    url: "archives"
+  - name: sort
+    url: "sort"
     icon:
   - name: about
     url: "about"
@@ -26,18 +26,18 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-email: xxx@example.com
-description: "少女祈祷中..."
+author: yiyibumingp
+email: 2362276183@qq.com
+description: "remember to forget me..."
 # subtitle: "少女祈祷中..."
 subtitle:
   typing:
-    enable: false
+    enable: true
     strings:
-      # - Sentence 1
-      # - Sentence 2
-      # - Sentence 3
-      # - Sentence 4
+       - 咳咳
+       - 不用干活
+       - 就有饭吃
+       - 超香
     typeSpeed: 100              # 打字速度（毫秒/字符） 
     backSpeed: 50               # 删除速度（毫秒/字符）
     backDelay: 2000             # 打完一句话后，等待时间
