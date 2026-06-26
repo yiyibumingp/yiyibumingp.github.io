@@ -64,7 +64,7 @@ banner_srcset:
     - src: "images/banner_new.webp"
       media: "(min-width: 800px)"
 
-avatar: "images/avatar.webp"
+avatar: "avatar.webp"
 
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
@@ -478,7 +478,7 @@ beaudar:
 ########################################
 
 algolia_search:
-  enable: false
+  enable: true
   appID:
   apiKey:
   indexName:
@@ -492,10 +492,10 @@ algolia_search:
 preloader:
   enable: true
   text: 
-    zh-CN: 少女祈祷中...
-    zh-TW: 少女祈禱中...
+    zh-CN: 你现在在想什么...
+    zh-TW: 祈禱中...
     en: Loading...
-    ja: 少女祈祷中...
+    ja: 在想啥...
     pt-BR: Carregando...
   icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
